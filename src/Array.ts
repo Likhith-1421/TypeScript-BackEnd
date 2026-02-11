@@ -48,3 +48,22 @@ console.log(shift)                   //Removes 1st element
 let unshift : Array<string> =["LIKHITH", "VAISHANVI"]
 unshift.unshift("Gayathri")
 console.log(unshift)                 //add gayathri to 0th index
+
+
+//MAP
+let map : number[] = [2,3,4,5,6,7]
+let results = map.map((x)=>(x*5))
+console.log(results)   // Basically map will returns a new array can't modify the existing array
+
+//filter 
+let responce : number[] = [19,2,22,3,34,12,5,43,18]
+let result2 = responce.filter(e=>e>18)
+console.log(result2)
+
+//splice
+let splice : string[] = ["Likhith" ,"Vaishnavi" ,"Gayathri"]
+splice.splice(2,1)
+console.log(splice)
+
+
+
