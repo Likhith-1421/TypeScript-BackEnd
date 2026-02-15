@@ -1,16 +1,38 @@
-interface user {
-    id : string;
-    name : string;
-    age : number ;
-    working?: boolean;
-}
+// interface user 
+// {
+//     id : string | number;
+//     name : string ;
+//     age : number ;
+//     phonenumber : number ;
+// }
 
-const user = 
+// const Users : user = 
+// {
+//     id : "214g1a0291",
+//     name : "Likhith",
+//     age : 2,
+//     phonenumber : 8919409806
+// }
+// console.log(Users)
+
+
+
+// type alise = string | number | boolean 
+
+// interface namess 
+// {
+//      names : alise;
+//      about : alise;
+//      id : number;
+// }
+
+
+
+enum Erro 
 {
-    id : "214g1a0291",
-    name : "LIKHITH PBK",
-    age : 22,
-   
+    state_200 = "ok",
+    state_404 = "Data not found",
 }
 
-console.log(user)
+console.log(Erro.state_200)
+console.log(Erro.state_404)

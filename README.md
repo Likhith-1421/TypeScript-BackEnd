@@ -1,6 +1,6 @@
 Arrays
 ====================
-Collection of multiple values that store in a variable called as Arrays.
+Collection of multiple values that store in a container called as Arrays.
 
 Basic syntax
    let arrayname : type[] = [values]

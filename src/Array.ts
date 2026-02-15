@@ -65,5 +65,8 @@ let splice : string[] = ["Likhith" ,"Vaishnavi" ,"Gayathri"]
 splice.splice(2,1)
 console.log(splice)
 
+let slice : string[] = ["Likhith" ,"Vaishnavi" ,"Gayathri"]
+slice.slice(1,2)
+console.log(slice)
 
 
